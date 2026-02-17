@@ -1,0 +1,272 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: sans-serif;
+ }
+  
+  body{
+    /* background-color: rgb(207, 250, 250); */
+    
+    
+    
+       }
+  .body{
+    background-image: url("inc/img/background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .header{  
+      background-color: #FF7F3F;
+    }
+
+    .index-header{
+      background-color: #ffffff;
+      opacity:0.5;
+    }
+
+    .index-body{
+      background-color: #000000;
+      opacity:0.8;
+      height:700px;
+     
+
+    }
+    
+    .heading_name{
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+      padding-top:10px;
+      color: #444444;
+    }
+  
+    .heading_text{
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      padding-top:10px;
+      color: #444444;
+      padding-bottom:20px;
+    }
+
+  .home_menu ul li a{
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    
+    display: block;
+    
+    text-align: center;
+    border-radius: 10px;
+
+  }
+
+  
+  ul li a:hover {
+    background-color: #d3d3d3;
+  }
+
+  ul li{
+    margin-top:10px;
+  }
+
+  
+
+  .main-body{
+    margin-top: 40px;
+    position: relative;
+  }
+  ul{
+   
+    margin: auto;
+    list-style-type: none;
+  }
+
+  .main_menu a{
+    text-decoration: none;
+    background-color: #00d084;
+    padding: 10px;
+    
+    display: block;
+    margin-top: 3px;
+    text-align: center;
+    border-radius: 0px 5px 5px 0px;
+
+  }
+    
+  .main_menu{
+    margin-left: 0px;
+    list-style-type: none;
+  }
+
+  .sidebar{
+    width: 200px;
+  }
+  
+.content{
+    background-color: #00d084;
+    margin-left: 300px;
+    position: absolute;
+    top: 0px;
+    width: fit-content;
+    border-radius: 10px;
+}
+.sub{
+  padding:5px 20px;
+  margin:10px 20px;
+}
+.home_menu{
+  width:200px;
+  margin:auto;
+  padding-top:100px;
+  color:#293462;
+}
+
+.panel_name{
+  color: tomato;
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+form{
+  padding:10px;
+}
+
+.form_row{
+  margin-top: 15px;
+}
+.form_row label{
+  width: 150px;
+  display: inline-block;
+  text-align: left;
+}
+.page_heading{
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.student_list{
+
+}
+
+.name{
+  width: 300px;
+background-color: red;
+display:inline-block;
+}
+
+.info,.result{
+  background-color: pink;
+  width: 100px;
+  display: inline-block;
+}
+
+.student_list{
+  margin-bottom: 10px;
+}
+
+.form_button{
+  background-color: tan;
+  float:right;
+  margin:10px;
+  padding: 5px;
+}
+
+.inline_form{
+  display: inline;
+}
+
+.studenttable tr:nth-child(odd){
+  background-color: whitesmoke;
+  
+
+}
+
+.studenttable tr td:last-child{
+  color: tomato;
+  
+
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table{
+  border-collapse: collapse;
+  text-align: center;
+}
+.studenttable tr td, th{
+  padding:10px;
+  
+}
+
+.main_menu li{
+  margin-top:3px;
+}
+
+.header a{
+  display:block;
+  padding-right:10px;
+  float:right;
+}
+
+.info_container{
+  display:block;
+  width:1;
+}
+.profile-pic{
+  float:right;
+}
+
+.profile{
+  
+  width: 700px;
+}
+.st-name{
+  font-size: 25px;
+  font-weight: bold;
+}
+.info_container .info_row{
+  margin-top:5px;
+}
+.info_row .info_name{
+  font-weight: bold;
+}
+
+.result-head{
+  position:sticky;
+  top:0;
+  background-color: #00d084;
+  border-radius: 10px 10px 0px 0px;
+  margin-top:10px;
+  
+  padding-bottom: 10px;
+  
+}
+.result-head h3{
+  display:inline;
+  margin-right:15px; 
+  padding-left: 10px;
+}
+.result-head div{
+  margin-top: 19px;
+}
+.result-head div a{
+   text-decoration: none;
+   padding: 10px;
+   background-color: #FF7F3F;
+  margin-right:2px;
+  color: #444444
+}
+.sidebar{
+  position:fixed;
+  z-index: 10px;
+}
+
+input{
+  text-align:center;
+}
